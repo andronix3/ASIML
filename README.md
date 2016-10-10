@@ -1,7 +1,7 @@
 # ASIML
 Action Script 3 Image Metadata Library
 
-Example usage:
+Example usage (to view correct source code please click RAW):
 
 <?xml version="1.0" encoding="utf-8"?>
 <mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" initialize="initApp()">
