@@ -1,10 +1,11 @@
 # ASIML
 Action Script 3 Image Metadata Library
 
-Example usage (to view correct source code please click RAW):
+Example usage:
 
-<?xml version="1.0" encoding="utf-8"?>
-<mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" initialize="initApp()">
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <mx:WindowedApplication xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" initialize="initApp()">
        <mx:Script>
         <![CDATA[
         
@@ -68,4 +69,4 @@ Example usage (to view correct source code please click RAW):
     <mx:Label id="Title" fontSize="24" fontStyle="bold" text='"Hello, world!" Example'/>
     <mx:TextArea id="output" width="1000" height="600" x="250" y="200"/>
   
-</mx:WindowedApplication>
+    </mx:WindowedApplication>
