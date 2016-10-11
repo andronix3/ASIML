@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flexLibProperties version="1">
+<includeClasses>
+<classEntry path="com.asiml.asiml_internal"/>
+<classEntry path="com.asiml.io.BAHelper"/>
+<classEntry path="com.asiml.io.ByteArray24"/>
+<classEntry path="com.asiml.io.ByteArray8"/>
+<classEntry path="com.asiml.io.ByteOrder"/>
+<classEntry path="com.asiml.io.FSHelper"/>
+<classEntry path="com.asiml.io.Helper"/>
+<classEntry path="com.asiml.io.InputStream"/>
+<classEntry path="com.asiml.io.SequenceInputStream"/>
+<classEntry path="com.asiml.io.StreamCache"/>
+<classEntry path="com.asiml.io.StreamProxy"/>
+<classEntry path="com.asiml.meta.Metadata"/>
+<classEntry path="com.asiml.meta.MetadataClass"/>
+<classEntry path="com.asiml.meta.MetadataEntry"/>
+<classEntry path="com.asiml.meta.iptc.CustomIPTCFieldMeta"/>
+<classEntry path="com.asiml.meta.iptc.IPTC"/>
+<classEntry path="com.asiml.meta.iptc.IPTCConstants"/>
+<classEntry path="com.asiml.meta.iptc.IPTCField"/>
+<classEntry path="com.asiml.meta.iptc.IPTCFieldMeta"/>
+<classEntry path="com.asiml.meta.iptc.IPTCMetaDictionary"/>
+<classEntry path="com.asiml.meta.iptc.IPTCParser"/>
+<classEntry path="com.asiml.meta.iptc.UnknownIPTCFieldMeta"/>
+<classEntry path="com.asiml.meta.jpeg.App0JFIFMarker"/>
+<classEntry path="com.asiml.meta.jpeg.App0JFXXMarker"/>
+<classEntry path="com.asiml.meta.jpeg.App13Marker"/>
+<classEntry path="com.asiml.meta.jpeg.App1ExifMarker"/>
+<classEntry path="com.asiml.meta.jpeg.App1XmpMarker"/>
+<classEntry path="com.asiml.meta.jpeg.EXIF"/>
+<classEntry path="com.asiml.meta.jpeg.JpegConstants"/>
+<classEntry path="com.asiml.meta.jpeg.JpegInfo"/>
+<classEntry path="com.asiml.meta.jpeg.JpegInfoListener"/>
+<classEntry path="com.asiml.meta.jpeg.JpegListener"/>
+<classEntry path="com.asiml.meta.jpeg.JpegStream"/>
+<classEntry path="com.asiml.meta.jpeg.Marker"/>
+<classEntry path="com.asiml.meta.jpeg.MarkerFactory"/>
+<classEntry path="com.asiml.meta.jpeg.PrintingJpegListener"/>
+<classEntry path="com.asiml.meta.jpeg.SOFMarker"/>
+<classEntry path="com.asiml.meta.psd.IRBDictionary"/>
+<classEntry path="com.asiml.meta.psd.IRBTag"/>
+<classEntry path="com.asiml.meta.psd.ImageResourceBlock"/>
+<classEntry path="com.asiml.meta.psd.ThumbnailResource"/>
+<classEntry path="com.asiml.meta.tiff.DataType"/>
+<classEntry path="com.asiml.meta.tiff.EntryValue"/>
+<classEntry path="com.asiml.meta.tiff.IFDEntry"/>
+<classEntry path="com.asiml.meta.tiff.IFDEntryMeta"/>
+<classEntry path="com.asiml.meta.tiff.ImageFileDirectory"/>
+<classEntry path="com.asiml.meta.tiff.TIFF"/>
+<classEntry path="com.asiml.meta.tiff.TIFFTagNumbers"/>
+<classEntry path="com.asiml.meta.tiff.TiffMetaDictionary"/>
+<classEntry path="com.asiml.meta.tiff.Utils"/>
+<classEntry path="com.asiml.meta.tiff.type.TByte"/>
+<classEntry path="com.asiml.meta.tiff.type.TDouble"/>
+<classEntry path="com.asiml.meta.tiff.type.TFloat"/>
+<classEntry path="com.asiml.meta.tiff.type.TLong"/>
+<classEntry path="com.asiml.meta.tiff.type.TNumber"/>
+<classEntry path="com.asiml.meta.tiff.type.TRational"/>
+<classEntry path="com.asiml.meta.tiff.type.TShort"/>
+</includeClasses>
+<includeResources/>
+<namespaceManifests/>
+</flexLibProperties>
