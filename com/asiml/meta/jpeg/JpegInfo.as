@@ -152,6 +152,18 @@ package com.asiml.meta.jpeg
 			return sof.tag;
 		}
 		
+		public function isProgressive() : Boolean {
+			switch(frameType) {
+				case JpegConstants.SOF2:
+				case JpegConstants.SOF6:
+				case JpegConstants.SOF10:
+				case JpegConstants.SOF14:
+					return true;
+				default:
+					return false;
+			}
+		}
+		
 		internal function get app13() : App13Marker {
 			if(_app13 == null) {
 				_app13 = new App13Marker();
