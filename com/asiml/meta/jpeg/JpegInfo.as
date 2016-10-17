@@ -164,6 +164,35 @@ package com.asiml.meta.jpeg
 			}
 		}
 		
+		public function isArithmetic() : Boolean {
+			switch(frameType) {
+				case JpegConstants.JPG:
+				case JpegConstants.SOF9:
+				case JpegConstants.SOF10:
+				case JpegConstants.SOF11:
+				case JpegConstants.SOF13:
+				case JpegConstants.SOF14:
+				case JpegConstants.SOF15:
+					return true;
+				default:
+					return false;	
+			}
+		}
+		
+		public function isDifferential() : Boolean {
+			switch(frameType) {
+				case JpegConstants.SOF5:
+				case JpegConstants.SOF6:
+				case JpegConstants.SOF7:
+				case JpegConstants.SOF13:
+				case JpegConstants.SOF13:
+				case JpegConstants.SOF15:
+					return true;
+				default:
+					return false;
+			}
+		}
+		
 		internal function get app13() : App13Marker {
 			if(_app13 == null) {
 				_app13 = new App13Marker();
