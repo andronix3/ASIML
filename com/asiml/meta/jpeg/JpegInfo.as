@@ -146,6 +146,12 @@ package com.asiml.meta.jpeg
 			return sof.isBaseline();
 		}
 		
+		public function get frameType() : int {
+			var array : Array = getArray("SOF", false);
+			var sof : SOFMarker = array[0];
+			return sof.tag;
+		}
+		
 		internal function get app13() : App13Marker {
 			if(_app13 == null) {
 				_app13 = new App13Marker();
