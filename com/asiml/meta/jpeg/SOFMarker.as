@@ -14,8 +14,10 @@ package com.asiml.meta.jpeg
 		private var X  : uint;
 		private var Nf : uint;
 		private var css: Array = new Array();
+		private var tag: uint;
 		
 		public function SOFMarker(m : Marker) {
+			tag = m.tag;
 			m.data.position = 0;
 			P = m.data.readUnsignedByte();
 			Y = m.data.readUnsignedShort();
@@ -26,6 +28,16 @@ package com.asiml.meta.jpeg
 			for (; i < Nf; i++) {
             	css.push(ComponentSpecification.read(m.data));
         	}
+		}
+		
+		public function isBaseline() : Boolean {
+			switch(tag) {
+				case JpegConstants.SOF0:
+				case JpegConstants.SOF1:
+					return true;
+				default:
+					return false;
+			}
 		}
 		
 		public function get width() : uint {

@@ -36,7 +36,6 @@
 package com.asiml.meta.jpeg
 {
 	import flash.display.Bitmap;
-	import flash.errors.IOError;
 	import flash.system.System;
 	import flash.utils.IDataInput;
 	
@@ -139,6 +138,12 @@ package com.asiml.meta.jpeg
 		 */
 		public function get thumbnails() : Array {
 			return _thumbs.slice();
+		}
+		
+		public function get baseline() : Boolean {
+			var array : Array = getArray("SOF", false);
+			var sof : SOFMarker = array[0];
+			return sof.isBaseline();
 		}
 		
 		internal function get app13() : App13Marker {

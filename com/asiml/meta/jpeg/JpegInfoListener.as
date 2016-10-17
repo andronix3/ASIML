@@ -39,7 +39,7 @@ package com.asiml.meta.jpeg
 		
 		private var readThumbnails : Boolean;
 		private var readXMP : Boolean;
-		
+				
 		public function JpegInfoListener(jpegInfo : JpegInfo) {
 			this.jpegInfo = jpegInfo;
 		}
@@ -59,7 +59,7 @@ package com.asiml.meta.jpeg
 		public function setReadXMP(b: Boolean):void {
 			readXMP = b;
 		}
-		
+				
 		public function jpegMarker(tag:uint, input:IDataInput):void {
 			var m : Marker;
 			switch(tag) {
